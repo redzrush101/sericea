@@ -3,7 +3,7 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM quay.io/fedora-sericea:43
+FROM quay.io/fedora-ostree-desktops/sway-atomic:43
 
 COPY system_files /
 
